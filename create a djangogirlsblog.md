@@ -1,3 +1,7 @@
+# how to set up pythonAnywhere?
+  - create an account
+  - create an API token
+
 # how to install pipenv globally on windows?
   - run cmd
   - python --version
@@ -55,3 +59,19 @@
   - python manage.py createsuperuser
   - Enter username or leave 
   - http://127.0.0.1:8000/admin
+
+# how to deploy the website on pythonAnywhere?
+  - sync with github
+  - create API Token on pythonAnywhere
+
+# how to configure your site on pythonAnywhere?
+  - go back to the main dashboard on pythonanywhere
+  - click on $ Bash opens a base on the browser for pythonAnywhere
+  - $ pip3.6 install --user pythonanywhere
+  - $ pa_autoconfigure_django.py --python=3.6 https://github.com/Benappiahpoku/djangogirls.git
+  - (ola.pythonanywhere.com) $ cd mysite (because i didnot use the dot)
+  - (ola.pythonanywhere.com) $ python manage.py createsuperuser
+  - enter same username as local computer
+  - visit benjilo.pythonanywhere.com - same djanjo page as local computer
+  - visit benjilo.pythonanywhere.com/admin - create a few posts and come back on work on ur local
+  - 
