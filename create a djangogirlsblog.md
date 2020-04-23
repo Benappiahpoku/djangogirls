@@ -53,4 +53,5 @@
 # how to add information into our newly created models in django?  
   - open admin.py to register the newly created model
   - python manage.py createsuperuser
+  - Enter username or leave 
   - http://127.0.0.1:8000/admin
