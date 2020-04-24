@@ -74,4 +74,12 @@
   - enter same username as local computer
   - visit benjilo.pythonanywhere.com - same djanjo page as local computer
   - visit benjilo.pythonanywhere.com/admin - create a few posts and come back on work on ur local
-  - 
+  - cd ~/benjilo.pythonanywhere.com
+
+# how to redeploy after changes made locally to pythonAnywhere?
+  - commit and sync to github
+  - go back to the bash in pythonAnywhere
+  - cd ~/benjilo.pythonanywhere.com
+  - git pull
+  - go back and reload at web apps on the top menu options at pythonanywhere
+  - visit benjilo.pythonanywhere.com - same djanjo page as local computer
