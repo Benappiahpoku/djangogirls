@@ -83,3 +83,10 @@
   - git pull
   - go back and reload at web apps on the top menu options at pythonanywhere
   - visit benjilo.pythonanywhere.com - same djanjo page as local computer
+
+# how to create the static folder and CSS?
+  - create static folder inside blog 
+  - blog/static/css/blog.css
+
+# how reactivate the virtual server on pythonanywhere?
+  -  workon benjilo.pythonanywhere.com
